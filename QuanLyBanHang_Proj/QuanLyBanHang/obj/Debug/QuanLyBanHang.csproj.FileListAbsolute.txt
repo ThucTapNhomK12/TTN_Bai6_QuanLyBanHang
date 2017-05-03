@@ -43,3 +43,13 @@ C:\Users\Tran Long\Desktop\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.f
 C:\Users\Tran Long\Desktop\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
 C:\Users\Tran Long\Desktop\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
 C:\Users\Tran Long\Desktop\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.View.frmHangHoa.resources
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmMain.resources
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
