@@ -20,9 +20,55 @@ namespace QuanLyBanHang.View
             InitializeComponent();
         }
 
-        private void btnTim_Click(object sender, EventArgs e)
+        private void frmHangHoa_Load(object sender, EventArgs e)
         {
+            DataTable dtHangHoa = new DataTable();
+            dtHangHoa = hhctrl.GetData();
+            dtgvHangHoa.DataSource = dtHangHoa;
+            bingding();
+        }
+        void bingding()
+        {
+            txtMa.DataBindings.Clear();
+            txtMa.DataBindings.Add("Text", dtgvHangHoa.DataSource, "MaHang");
+            txtTenHang.DataBindings.Clear();
+            txtTenHang.DataBindings.Add("Text", dtgvHangHoa.DataSource, "TenHang");
+            cmbSoLuong.DataBindings.Clear();
+            cmbSoLuong.DataBindings.Add("Text", dtgvHangHoa.DataSource, "SoLuong");
+            txtDonGia.DataBindings.Clear();
+            txtDonGia.DataBindings.Add("Text", dtgvHangHoa.DataSource, "DonGia");
+            
+        }
+        void ganDuLieu(HangHoaObj hhObj)
+        {
+            hhObj.Ma = txtMa.Text.Trim();
+            hhObj.Ten = txtTenHang.Text.Trim();
+            hhObj.SoLuong = cmbSoLuong.Text.Trim();
+            hhObj.DonGia = txtDonGia.Text.Trim();
 
         }
+        void cleartxt()
+        {
+            txtMa.Text = "";
+            txtTenHang.Text = "";
+            cmbSoLuong.Text = "";
+            txtDonGia.Text = "";
+
+        }
+
+        void dis_en(bool e)
+        {
+            txtMa.Enabled = e;
+            txtTenHang.Enabled = e;
+            cmbSoLuong.Enabled = e;
+            txtDonGia.Enabled = e;
+            btnHuy.Enabled = e;
+            btnLuu.Enabled = e;
+            btnThem.Enabled = !e;
+            btnSua.Enabled = !e;
+            btnXoa.Enabled = !e;
+        }
+
+
     }
 }
