@@ -53,3 +53,11 @@ E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\o
 E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
 E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
 E:\Ky8\Source_code_GIT\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.View.frmHangHoa.resources
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmMain.resources
+E:\ThucTapNhomHocLai\Bai Cua Long\TTN_Bai6_QuanLyBanHang\QuanLyBanHang_Proj\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
