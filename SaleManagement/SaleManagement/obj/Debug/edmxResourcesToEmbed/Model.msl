@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_sale_managementModelStoreContainer" CdmEntityContainer="db_sale_managementEntities">
+    <EntitySetMapping Name="chi_tiet_hoa_don_ban">
+      <EntityTypeMapping TypeName="db_sale_managementModel.chi_tiet_hoa_don_ban">
+        <MappingFragment StoreEntitySet="chi_tiet_hoa_don_ban">
+          <ScalarProperty Name="ma_hoa_don" ColumnName="ma_hoa_don" />
+          <ScalarProperty Name="ma_san_pham" ColumnName="ma_san_pham" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+          <ScalarProperty Name="don_gia" ColumnName="don_gia" />
+          <ScalarProperty Name="thanh_tien" ColumnName="thanh_tien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chi_tiet_hoa_don_mua">
+      <EntityTypeMapping TypeName="db_sale_managementModel.chi_tiet_hoa_don_mua">
+        <MappingFragment StoreEntitySet="chi_tiet_hoa_don_mua">
+          <ScalarProperty Name="ma_hoa_don" ColumnName="ma_hoa_don" />
+          <ScalarProperty Name="ma_san_pham" ColumnName="ma_san_pham" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+          <ScalarProperty Name="don_gia" ColumnName="don_gia" />
+          <ScalarProperty Name="thanh_tien" ColumnName="thanh_tien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoa_don_ban">
+      <EntityTypeMapping TypeName="db_sale_managementModel.hoa_don_ban">
+        <MappingFragment StoreEntitySet="hoa_don_ban">
+          <ScalarProperty Name="ma_hoa_don" ColumnName="ma_hoa_don" />
+          <ScalarProperty Name="ngay_lap" ColumnName="ngay_lap" />
+          <ScalarProperty Name="tong_tien" ColumnName="tong_tien" />
+          <ScalarProperty Name="ma_khach_hang" ColumnName="ma_khach_hang" />
+          <ScalarProperty Name="ma_nhan_vien" ColumnName="ma_nhan_vien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoa_don_mua">
+      <EntityTypeMapping TypeName="db_sale_managementModel.hoa_don_mua">
+        <MappingFragment StoreEntitySet="hoa_don_mua">
+          <ScalarProperty Name="ma_hoa_don" ColumnName="ma_hoa_don" />
+          <ScalarProperty Name="ngay_lap" ColumnName="ngay_lap" />
+          <ScalarProperty Name="ma_nha_cung_cap" ColumnName="ma_nha_cung_cap" />
+          <ScalarProperty Name="tong_tien" ColumnName="tong_tien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khach_hang">
+      <EntityTypeMapping TypeName="db_sale_managementModel.khach_hang">
+        <MappingFragment StoreEntitySet="khach_hang">
+          <ScalarProperty Name="ma_khach_hang" ColumnName="ma_khach_hang" />
+          <ScalarProperty Name="ho_ten" ColumnName="ho_ten" />
+          <ScalarProperty Name="ngay_sinh" ColumnName="ngay_sinh" />
+          <ScalarProperty Name="dia_chi" ColumnName="dia_chi" />
+          <ScalarProperty Name="so_dien_thoai" ColumnName="so_dien_thoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_san_pham">
+      <EntityTypeMapping TypeName="db_sale_managementModel.loai_san_pham">
+        <MappingFragment StoreEntitySet="loai_san_pham">
+          <ScalarProperty Name="ma_loai_san_pham" ColumnName="ma_loai_san_pham" />
+          <ScalarProperty Name="ten_loai_san_pham" ColumnName="ten_loai_san_pham" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nha_cung_cap">
+      <EntityTypeMapping TypeName="db_sale_managementModel.nha_cung_cap">
+        <MappingFragment StoreEntitySet="nha_cung_cap">
+          <ScalarProperty Name="ma_nha_cung_cap" ColumnName="ma_nha_cung_cap" />
+          <ScalarProperty Name="ten_nha_cung_cap" ColumnName="ten_nha_cung_cap" />
+          <ScalarProperty Name="dia_chi" ColumnName="dia_chi" />
+          <ScalarProperty Name="so_dien_thoai" ColumnName="so_dien_thoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nhan_vien">
+      <EntityTypeMapping TypeName="db_sale_managementModel.nhan_vien">
+        <MappingFragment StoreEntitySet="nhan_vien">
+          <ScalarProperty Name="ma_nhan_vien" ColumnName="ma_nhan_vien" />
+          <ScalarProperty Name="ho_ten" ColumnName="ho_ten" />
+          <ScalarProperty Name="dia_chi" ColumnName="dia_chi" />
+          <ScalarProperty Name="so_dien_thoai" ColumnName="so_dien_thoai" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="mat_khau" ColumnName="mat_khau" />
+          <ScalarProperty Name="trang_thai" ColumnName="trang_thai" />
+          <ScalarProperty Name="phan_quyen" ColumnName="phan_quyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="san_pham">
+      <EntityTypeMapping TypeName="db_sale_managementModel.san_pham">
+        <MappingFragment StoreEntitySet="san_pham">
+          <ScalarProperty Name="ma_san_pham" ColumnName="ma_san_pham" />
+          <ScalarProperty Name="ten_san_pham" ColumnName="ten_san_pham" />
+          <ScalarProperty Name="gia_san_pham" ColumnName="gia_san_pham" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+          <ScalarProperty Name="don_vi_tinh" ColumnName="don_vi_tinh" />
+          <ScalarProperty Name="thong_so_ky_thuat" ColumnName="thong_so_ky_thuat" />
+          <ScalarProperty Name="tinh_trang" ColumnName="tinh_trang" />
+          <ScalarProperty Name="ma_loai_san_pham" ColumnName="ma_loai_san_pham" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="db_sale_managementModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

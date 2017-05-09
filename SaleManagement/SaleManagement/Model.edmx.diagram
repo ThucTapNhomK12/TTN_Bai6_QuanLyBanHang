@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ddb2e6e0ee64502aceb7f585b31bbb1" Name="Diagram1">
+        <EntityTypeShape EntityType="db_sale_managementModel.chi_tiet_hoa_don_ban" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.chi_tiet_hoa_don_mua" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.hoa_don_ban" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.hoa_don_mua" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.khach_hang" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.loai_san_pham" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.nha_cung_cap" Width="1.5" PointX="3.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.nhan_vien" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.san_pham" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_sale_managementModel.sysdiagram" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="db_sale_managementModel.FK__chi_tiet___ma_ho__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__chi_tiet___ma_sa__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__chi_tiet___ma_ho__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__chi_tiet___ma_sa__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__hoa_don_b__ma_kh__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__hoa_don_b__ma_nh__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__hoa_don_m__ma_nh__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="db_sale_managementModel.FK__san_pham__ma_loa__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

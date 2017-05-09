@@ -1,0 +1,66 @@
+c:\users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe.config
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\SaleManagement.pdb
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\EntityFramework.dll
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\EntityFramework.xml
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csprojResolveAssemblyReference.cache
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.Properties.Resources.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csproj.GenerateResource.Cache
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.exe
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.pdb
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.DangNhap.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.QuanLy.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ThemNhaCungCap.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.SanPham.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.KhachHang.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.NhanVien.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.NhapKho.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.XuatKho.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonBan.resources
+C:\Users\naq259\documents\visual studio 2013\Projects\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonMua.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe.config
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.exe
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.pdb
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.pdb
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.dll
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.xml
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csprojResolveAssemblyReference.cache
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonBan.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonMua.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.DangNhap.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.Properties.Resources.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.QuanLy.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ThemNhaCungCap.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csproj.GenerateResource.Cache
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.KhachHangForm.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.NhanVienForm.resources
+C:\Users\naq259\Documents\Visual Studio 2013\Projects\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.SanPhamForm.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe.config
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.exe
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.pdb
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csprojResolveAssemblyReference.cache
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonBan.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ChiTietHoaDonMua.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.DangNhap.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.KhachHangForm.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.Properties.Resources.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.QuanLy.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.NhanVienForm.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.SanPhamForm.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.ThemNhaCungCap.resources
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\obj\Debug\SaleManagement.csproj.GenerateResource.Cache
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\SaleManagement.pdb
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.dll
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.xml
+C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.xml
