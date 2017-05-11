@@ -64,3 +64,6 @@ C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Deb
 C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.xml
 C:\Users\Tran_Long\Desktop\sale_management\SaleManagement\SaleManagement\bin\Debug\EntityFramework.SqlServer.xml
+D:\ThucTapNhomK12\TTN_Bai6_QuanLyBanHang\SaleManagement\SaleManagement\bin\Debug\SaleManagement.exe.config
+D:\ThucTapNhomK12\TTN_Bai6_QuanLyBanHang\SaleManagement\SaleManagement\obj\Debug\SaleManagement.exe
+D:\ThucTapNhomK12\TTN_Bai6_QuanLyBanHang\SaleManagement\SaleManagement\obj\Debug\SaleManagement.pdb
