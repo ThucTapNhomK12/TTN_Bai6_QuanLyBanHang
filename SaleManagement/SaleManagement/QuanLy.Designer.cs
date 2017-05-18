@@ -59,6 +59,9 @@
             this.btnSubmit = new DevComponents.DotNetBar.ButtonX();
             this.txtConfirmPassword = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tabUtils = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
+            this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.tabHome = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.btnXoaNCC = new DevComponents.DotNetBar.ButtonX();
@@ -170,9 +173,6 @@
             this.labelX12 = new DevComponents.DotNetBar.LabelX();
             this.labelX11 = new DevComponents.DotNetBar.LabelX();
             this.tabStatistic = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
-            this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.tabHome = new DevComponents.DotNetBar.TabItem(this.components);
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
@@ -180,6 +180,7 @@
             this.groupPanel8.SuspendLayout();
             this.groupPanel7.SuspendLayout();
             this.groupPanel6.SuspendLayout();
+            this.tabControlPanel1.SuspendLayout();
             this.tabControlPanel2.SuspendLayout();
             this.groupPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhaCungCap)).BeginInit();
@@ -200,14 +201,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtToDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtFromDay)).BeginInit();
-            this.tabControlPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
             // 
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.tabControlPanel8);
             this.tabControl.Controls.Add(this.tabControlPanel1);
+            this.tabControl.Controls.Add(this.tabControlPanel8);
             this.tabControl.Controls.Add(this.tabControlPanel2);
             this.tabControl.Controls.Add(this.tabControlPanel3);
             this.tabControl.Controls.Add(this.tabControlPanel4);
@@ -612,6 +612,72 @@
             this.tabUtils.Name = "tabUtils";
             this.tabUtils.Text = "Tiện ích";
             // 
+            // tabControlPanel1
+            // 
+            this.tabControlPanel1.Controls.Add(this.groupPanel5);
+            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel1.Location = new System.Drawing.Point(0, 26);
+            this.tabControlPanel1.Name = "tabControlPanel1";
+            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel1.Size = new System.Drawing.Size(737, 460);
+            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
+            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
+            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel1.Style.GradientAngle = 90;
+            this.tabControlPanel1.TabIndex = 1;
+            this.tabControlPanel1.TabItem = this.tabHome;
+            // 
+            // groupPanel5
+            // 
+            this.groupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel5.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupPanel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupPanel5.Location = new System.Drawing.Point(1, 1);
+            this.groupPanel5.Name = "groupPanel5";
+            this.groupPanel5.Size = new System.Drawing.Size(735, 458);
+            // 
+            // 
+            // 
+            this.groupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel5.Style.BackColorGradientAngle = 90;
+            this.groupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel5.Style.BackgroundImage = global::SaleManagement.Properties.Resources.asin;
+            this.groupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderBottomWidth = 1;
+            this.groupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderLeftWidth = 1;
+            this.groupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderRightWidth = 1;
+            this.groupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderTopWidth = 1;
+            this.groupPanel5.Style.CornerDiameter = 4;
+            this.groupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel5.TabIndex = 0;
+            this.groupPanel5.Text = "Hệ thống quản lý bán hàng";
+            // 
+            // tabHome
+            // 
+            this.tabHome.AttachedControl = this.tabControlPanel1;
+            this.tabHome.Name = "tabHome";
+            this.tabHome.Text = "Trang chủ";
+            // 
             // tabControlPanel2
             // 
             this.tabControlPanel2.Controls.Add(this.groupPanel2);
@@ -932,10 +998,10 @@
             this.cbActionProduct.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbActionProduct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbActionProduct.FormattingEnabled = true;
-            this.cbActionProduct.ItemHeight = 16;
+            this.cbActionProduct.ItemHeight = 17;
             this.cbActionProduct.Location = new System.Drawing.Point(570, 399);
             this.cbActionProduct.Name = "cbActionProduct";
-            this.cbActionProduct.Size = new System.Drawing.Size(140, 22);
+            this.cbActionProduct.Size = new System.Drawing.Size(140, 23);
             this.cbActionProduct.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbActionProduct.TabIndex = 3;
             this.cbActionProduct.SelectedValueChanged += new System.EventHandler(this.cbActionProduct_SelectedValueChanged);
@@ -1117,10 +1183,10 @@
             this.cbActionCustomer.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbActionCustomer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbActionCustomer.FormattingEnabled = true;
-            this.cbActionCustomer.ItemHeight = 16;
+            this.cbActionCustomer.ItemHeight = 17;
             this.cbActionCustomer.Location = new System.Drawing.Point(569, 399);
             this.cbActionCustomer.Name = "cbActionCustomer";
-            this.cbActionCustomer.Size = new System.Drawing.Size(140, 22);
+            this.cbActionCustomer.Size = new System.Drawing.Size(140, 23);
             this.cbActionCustomer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbActionCustomer.TabIndex = 7;
             this.cbActionCustomer.SelectedValueChanged += new System.EventHandler(this.cbActionCustomer_SelectedValueChanged);
@@ -1258,10 +1324,10 @@
             this.cbActionStaff.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbActionStaff.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbActionStaff.FormattingEnabled = true;
-            this.cbActionStaff.ItemHeight = 16;
+            this.cbActionStaff.ItemHeight = 17;
             this.cbActionStaff.Location = new System.Drawing.Point(570, 399);
             this.cbActionStaff.Name = "cbActionStaff";
-            this.cbActionStaff.Size = new System.Drawing.Size(140, 22);
+            this.cbActionStaff.Size = new System.Drawing.Size(140, 23);
             this.cbActionStaff.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbActionStaff.TabIndex = 11;
             this.cbActionStaff.SelectedValueChanged += new System.EventHandler(this.cbActionStaff_SelectedValueChanged);
@@ -1471,10 +1537,10 @@
             this.cbActionSaleInvoice.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbActionSaleInvoice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbActionSaleInvoice.FormattingEnabled = true;
-            this.cbActionSaleInvoice.ItemHeight = 16;
+            this.cbActionSaleInvoice.ItemHeight = 17;
             this.cbActionSaleInvoice.Location = new System.Drawing.Point(130, 351);
             this.cbActionSaleInvoice.Name = "cbActionSaleInvoice";
-            this.cbActionSaleInvoice.Size = new System.Drawing.Size(165, 22);
+            this.cbActionSaleInvoice.Size = new System.Drawing.Size(165, 23);
             this.cbActionSaleInvoice.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbActionSaleInvoice.TabIndex = 15;
             this.cbActionSaleInvoice.SelectedValueChanged += new System.EventHandler(this.cbActionSaleInvoice_SelectedValueChanged);
@@ -1498,10 +1564,10 @@
             this.cbNhanVien.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbNhanVien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNhanVien.FormattingEnabled = true;
-            this.cbNhanVien.ItemHeight = 16;
+            this.cbNhanVien.ItemHeight = 17;
             this.cbNhanVien.Location = new System.Drawing.Point(130, 315);
             this.cbNhanVien.Name = "cbNhanVien";
-            this.cbNhanVien.Size = new System.Drawing.Size(165, 22);
+            this.cbNhanVien.Size = new System.Drawing.Size(165, 23);
             this.cbNhanVien.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbNhanVien.TabIndex = 4;
             // 
@@ -1524,10 +1590,10 @@
             this.cbKhachHang.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbKhachHang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbKhachHang.FormattingEnabled = true;
-            this.cbKhachHang.ItemHeight = 16;
+            this.cbKhachHang.ItemHeight = 17;
             this.cbKhachHang.Location = new System.Drawing.Point(130, 278);
             this.cbKhachHang.Name = "cbKhachHang";
-            this.cbKhachHang.Size = new System.Drawing.Size(165, 22);
+            this.cbKhachHang.Size = new System.Drawing.Size(165, 23);
             this.cbKhachHang.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbKhachHang.TabIndex = 2;
             // 
@@ -1685,10 +1751,10 @@
             this.cbActionBuyInvoice.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbActionBuyInvoice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbActionBuyInvoice.FormattingEnabled = true;
-            this.cbActionBuyInvoice.ItemHeight = 16;
+            this.cbActionBuyInvoice.ItemHeight = 17;
             this.cbActionBuyInvoice.Location = new System.Drawing.Point(134, 315);
             this.cbActionBuyInvoice.Name = "cbActionBuyInvoice";
-            this.cbActionBuyInvoice.Size = new System.Drawing.Size(165, 22);
+            this.cbActionBuyInvoice.Size = new System.Drawing.Size(165, 23);
             this.cbActionBuyInvoice.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbActionBuyInvoice.TabIndex = 13;
             this.cbActionBuyInvoice.SelectedValueChanged += new System.EventHandler(this.cbActionBuyInvoice_SelectedValueChanged);
@@ -1784,10 +1850,10 @@
             this.cbNhaCungCap.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbNhaCungCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNhaCungCap.FormattingEnabled = true;
-            this.cbNhaCungCap.ItemHeight = 16;
+            this.cbNhaCungCap.ItemHeight = 17;
             this.cbNhaCungCap.Location = new System.Drawing.Point(134, 278);
             this.cbNhaCungCap.Name = "cbNhaCungCap";
-            this.cbNhaCungCap.Size = new System.Drawing.Size(165, 22);
+            this.cbNhaCungCap.Size = new System.Drawing.Size(165, 23);
             this.cbNhaCungCap.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbNhaCungCap.TabIndex = 6;
             // 
@@ -2079,72 +2145,6 @@
             this.tabStatistic.Text = "Thống kê";
             this.tabStatistic.Visible = false;
             // 
-            // tabControlPanel1
-            // 
-            this.tabControlPanel1.Controls.Add(this.groupPanel5);
-            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel1.Location = new System.Drawing.Point(0, 26);
-            this.tabControlPanel1.Name = "tabControlPanel1";
-            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel1.Size = new System.Drawing.Size(737, 460);
-            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel1.Style.GradientAngle = 90;
-            this.tabControlPanel1.TabIndex = 1;
-            this.tabControlPanel1.TabItem = this.tabHome;
-            // 
-            // groupPanel5
-            // 
-            this.groupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel5.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupPanel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupPanel5.Location = new System.Drawing.Point(1, 1);
-            this.groupPanel5.Name = "groupPanel5";
-            this.groupPanel5.Size = new System.Drawing.Size(735, 458);
-            // 
-            // 
-            // 
-            this.groupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel5.Style.BackColorGradientAngle = 90;
-            this.groupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel5.Style.BackgroundImage = global::SaleManagement.Properties.Resources.asin;
-            this.groupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel5.Style.BorderBottomWidth = 1;
-            this.groupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel5.Style.BorderLeftWidth = 1;
-            this.groupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel5.Style.BorderRightWidth = 1;
-            this.groupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel5.Style.BorderTopWidth = 1;
-            this.groupPanel5.Style.CornerDiameter = 4;
-            this.groupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel5.TabIndex = 0;
-            this.groupPanel5.Text = "Hệ thống quản lý bán hàng công ty cổ phần ASIN Việt Nam";
-            // 
-            // tabHome
-            // 
-            this.tabHome.AttachedControl = this.tabControlPanel1;
-            this.tabHome.Name = "tabHome";
-            this.tabHome.Text = "Trang chủ";
-            // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
@@ -2165,6 +2165,7 @@
             this.groupPanel8.ResumeLayout(false);
             this.groupPanel7.ResumeLayout(false);
             this.groupPanel6.ResumeLayout(false);
+            this.tabControlPanel1.ResumeLayout(false);
             this.tabControlPanel2.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhaCungCap)).EndInit();
@@ -2185,7 +2186,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtToDay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtFromDay)).EndInit();
-            this.tabControlPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
