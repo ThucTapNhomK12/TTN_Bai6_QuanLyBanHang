@@ -36,6 +36,30 @@ namespace SaleManagement
 
         public void loadForm()
         {
+List<ComboboxUtils> listStatus = new List<ComboboxUtils>()
+            {
+                new ComboboxUtils(1, "Bình thường"),
+                new ComboboxUtils(0, "Đang khóa")
+            };
+            ComboboxUtils status = new ComboboxUtils();
+            cbTrangThai.DataSource = listStatus;
+            cbTrangThai.DisplayMember = "text";
+            cbTrangThai.ValueMember = "value";
+
+            List<ComboboxUtils> listRole = new List<ComboboxUtils>()
+            {
+                new ComboboxUtils(1, "Admin"),
+                new ComboboxUtils(2, "Nhân viên bán hàng"),
+                new ComboboxUtils(3, "Kế toán"),
+                new ComboboxUtils(4, "Thủ kho")
+            };
+            ComboboxUtils role = new ComboboxUtils();
+            cbPhanQuyen.DataSource = listRole;
+            cbPhanQuyen.DisplayMember = "text";
+            cbPhanQuyen.ValueMember = "value";
+
+            selectedStaff = (selectedStaff != null) ? new db_sale_managementEntities().nhan_vien.Find(selectedStaff.ma_nhan_vien) : null;
+        
            }
 
         private void btnExit_Click(object sender, EventArgs e)
